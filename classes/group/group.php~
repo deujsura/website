@@ -1,0 +1,15 @@
+<?php
+class group {
+	public _construct($groupid) {
+		$this->$group_id = $groupid;
+	}
+
+	public function listModerators(){
+		
+   }
+   
+   public function listgroup
+	public $group_id;
+	
+}
+?>
