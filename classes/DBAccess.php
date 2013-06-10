@@ -1,5 +1,5 @@
 <?
-require("./DBObject.php");
+require_once("DBObject.php");
 
 class DBAccess extends DBObject {
 	
@@ -15,7 +15,6 @@ public db_connec(){
 		if (!$conn_id){
 			return null;
 		}
-		echo "database connected"
 		return $conn_id;
 }
 
