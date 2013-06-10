@@ -3,7 +3,7 @@ class group {
 	
 	public _construct($groupId) {
 		$this->$group_id = $groupId;
-		getGroupName();		
+		getGroupName(); 		
 		listModerators();
 	}
 
@@ -15,6 +15,14 @@ class group {
 		
 	}  
 	 
+	public function getPosts($lastPostID) {
+	
+	}
+
+	public function getMembers(){
+	
+	}
+
    public $group_id;
    public $group_name;
 	public $moderator_list

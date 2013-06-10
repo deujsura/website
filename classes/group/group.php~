@@ -1,15 +1,31 @@
 <?php
 class group {
-	public _construct($groupid) {
-		$this->$group_id = $groupid;
+	
+	public _construct($groupId) {
+		$this->$group_id = $groupId;
+		getGroupName(); 		
+		listModerators();
 	}
 
-	public function listModerators(){
+	private function listModerators(){
 		
    }
-   
-   public function listgroup
-	public $group_id;
+	
+	public function getGroupName() {
+		
+	}  
+	 
+	public function getPosts($lastPostID) {
+	
+	}
+
+	public function getMembers(){
+	
+	}
+
+   public $group_id;
+   public $group_name;
+	public $moderator_list
 	
 }
 ?>
